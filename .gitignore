@@ -1,0 +1,7 @@
+*.tar.gz
+test/results
+*.retry
+*/__pycache__
+*.pyc
+.cache
+.DS_Store
