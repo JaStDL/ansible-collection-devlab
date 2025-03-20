@@ -1,0 +1,8 @@
+---
+- name: Install lxd on selected hosts
+  hosts: '{{ target | default("lxd") }}'
+  vars:
+    debug_enabled_default: true
+  roles:
+    - lxd
+  become: true

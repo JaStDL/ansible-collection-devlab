@@ -1,0 +1,264 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "deploy-lxd.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b7127e3c8417f098f33d5baa5bbec878eb548f7bf4240c1dfb0f27f33e80277a",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "25f025d7be6ccaf0d3701c7f3cd3b4e3daba6b1db16d77d4ef36e56ee9fbf397",
+   "format": 1
+  },
+  {
+   "name": ".pre-commit-config.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "52efe67a0c6a3efdc31916268b9084dc83c82559ce17644217bce36ec6a35f50",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2dfe1fec2fc4f272ddc982d5443fe265df8a238778eee953bcd9111cf9fcc019",
+   "format": 1
+  },
+  {
+   "name": ".yamlint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3a4820dffc1f99bd36f29f7a27428d3174fa4568e56b7a75b46caa035851cb2d",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1dbf73a94553866940a8f1f48742f72bee5e084e74663b852554b9dac49fc1ce",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/lxd",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f52d711103d50a437830c6fbcd04fb4bab49a0f82f6d26d1c791c6e8488dd090",
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "33e5715b7dc34001eadbef6db8068258fbfc24fdc025d89586429ef9f912521e",
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b3ce1b1c614e7065ff1ebe5ebcfec337e2ff5547b6d50d8f64c1874f0b0ccbe4",
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc751d75266f757a38189f15d54e548dc87706f14a39756995c27b49eaca8a07",
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c5b5ddb9628acf24d54e4e01834776a4cd05100106a6a0816f327627660724a2",
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/templates/subid.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "37481178bc46997faa06148ff5b327147fa4f1c8ed9a7e633cbd595a2770c79b",
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/templates/lxd_config.yml.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "89870f289ded64ca247d4427c0639235eec5235ba35ba5bb91ce464cb32d766e",
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/lxd/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a880f7e4169a14088bfdbc0f15cd7bb87ff887d893aa1565587258eb2aa5cc3b",
+   "format": 1
+  },
+  {
+   "name": "docs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "04189b1fd6ba805125763b0121970c6df53e603fdc4fc4e1d1c46fc3fd395aae",
+   "format": 1
+  },
+  {
+   "name": ".ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "eb534ae56f597eb0cdea5ad7c8491ca55143925606d264c6e088705c4cca8d85",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7cc7b158b95fb1304c45142ed2a2a79748d6adf895804b4d7318cfc7c226490e",
+   "format": 1
+  },
+  {
+   "name": ".ansible",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/.lock",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": ".ansible/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/collections",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/collections/ansible_collections",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible/collections/ansible_collections/jstojanowski",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "310d32ad840f5412289d6d684d8602da4b9500a152aef1239c178b364728c75e",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

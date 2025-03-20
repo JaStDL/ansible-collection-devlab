@@ -1,0 +1,7 @@
+---
+- name: Restart lxd
+  ansible.builtin.systemd_service:
+    name: snap.lxd.daemon.service
+    state: restarted
+  listen: restart_lxd
+  become: true

@@ -1,0 +1,10 @@
+---
+extends: default
+
+ignore: |
+  .git/
+  .github/
+
+rules:
+  line-length:
+    max: 160

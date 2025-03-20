@@ -1,0 +1,5 @@
+---
+lxd_users: []
+lxd_snap_channel: '5.21/stable'
+lxd_subid_offset: 1000000
+lxd_subid_range: 6553600

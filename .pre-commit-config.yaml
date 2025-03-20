@@ -1,0 +1,9 @@
+---
+repos:
+  - repo: https://github.com/ansible/ansible-lint.git
+    rev: v24.9.0
+    hooks:
+      - id: ansible-lint
+        always_run: true
+        verbose: true
+        files: \.(yaml|yml)$

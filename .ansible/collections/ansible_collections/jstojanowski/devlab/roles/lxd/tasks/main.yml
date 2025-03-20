@@ -1,0 +1,55 @@
+---
+- name: Install lxd
+  community.general.snap:
+    name: lxd
+    channel: "{{ lxd_snap_channel }}"
+    state: present
+  become: true
+
+- name: Add users to lxd group
+  ansible.builtin.user:
+    name: "{{ item }}"
+    groups:
+      - lxd
+    append: true
+  loop: "{{ lxd_users }}"
+  become: true
+
+- name: Reload user groups
+  ansible.builtin.meta: reset_connection
+
+- name: Start lxd service
+  ansible.builtin.systemd_service:
+    name: snap.lxd.daemon.service
+    state: started
+    enabled: true
+  become: true
+
+- name: Init lxd_config from template file
+  ansible.builtin.set_fact:
+    master: "{{ lookup('template', 'lxd_config.yml.j2') }}"
+
+- name: Get lxd config
+  ansible.builtin.command:
+    cmd: lxd init --dump
+  register: lxd_current_config
+  changed_when: false
+
+- name: Update lxd config
+  ansible.builtin.command:
+    cmd: lxd init --preseed
+    stdin: '{{ lxd_config | to_yaml }}'
+  notify: restart_lxd
+  changed_when: true
+  when: lxd_config != lxd_current_config.stdout | from_yaml
+
+- name: Define subuid/subgid files
+  ansible.builtin.template:
+    src: subid.j2
+    dest: "/etc/{{ item }}"
+    mode: '0644'
+  loop:
+    - subuid
+    - subgid
+  become: true
+  notify: restart_lxd

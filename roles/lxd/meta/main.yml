@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Jarek Stojanowski JaSt <jstojanowski@gmail.com>
+  description: Lxd installation and preseed configuration
+  issue_tracker_url: https://github.com/JaStDL/ansible_collection_devlab/issues
+  license: MIT
+  min_ansible_version: "2.15.0"
+  galaxy_tags:
+    - lxd
+    - server
+    - ubuntu
+  platforms:
+    - name: ubuntu
+      versions:
+        - noble
+        - jammy
+        - focal
+dependencies: []

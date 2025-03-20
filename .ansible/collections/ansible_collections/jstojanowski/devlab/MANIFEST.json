@@ -1,0 +1,45 @@
+{
+ "collection_info": {
+  "namespace": "jstojanowski",
+  "name": "devlab",
+  "version": "0.0.1",
+  "authors": [
+   "Jarek Stojanowski JaSt <jstojanowski@gmail.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "infrastructure",
+   "linux",
+   "cloud",
+   "networking",
+   "devops",
+   "iac",
+   "homelab",
+   "cluster",
+   "terraform",
+   "toolset",
+   "server",
+   "zerotier",
+   "vpn",
+   "lxd"
+  ],
+  "description": "Ansible collection of roles for quick deploying development and DevOps environment.",
+  "license": [
+   "MIT"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "https://github.com/JaStDL/ansible_collection_devlab",
+  "documentation": "https://github.com/JaStDL/ansible_collection_devlab",
+  "homepage": "https://github.com/JaStDL/ansible_collection_devlab# The URL to the collection issue tracker",
+  "issues": "https://github.com/JaStDL/ansible_collection_devlab/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "4b76916740e3911b7e4537b81e88ae009f1b29aaf94f35757f7363fc4be9f379",
+  "format": 1
+ },
+ "format": 1
+}
